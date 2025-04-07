@@ -77,7 +77,7 @@ cat <<EOF > /var/www/html/index.html
     </div>
     <div class="w3-display-bottomleft w3-padding-small transparent-background outlined-text">
       <h1>Be a Man Level 4 - Brazil WebServer</h1>
-      <h3>I, TIQS, Thank You Theo and Beron</h3>
+      <h3>I, TIQS, Thank You Sensei Theo & Lord Beron</h3>
       <h3>Team Group Leader - John Sweeney</h3>
       <p><b>Instance Name:</b> $(hostname -f)</p>
       <p><b>Instance Private IP Address: </b> $local_ipv4</p>
