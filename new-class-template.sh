@@ -31,7 +31,7 @@ cat <<EOF > /var/www/html/index.html
     body,h1,h3 {font-family: "Raleway", sans-serif}
     body, html {height: 100%}
     .bgimg {
-      background-image: url('https://www.thepinnaclelist.com/wp-content/uploads/2013/02/01-Residencia-NJ-Campinas-Sao-Paulo-Brazil.jpg');
+      background-image: url('https://ik.imagekit.io/swiperoom/white_water_house_chris_clout_878c2506c4.jpg');
       min-height: 100%;
       background-position: center;
       background-size: cover;
@@ -56,9 +56,10 @@ cat <<EOF > /var/www/html/index.html
     <div class="w3-display-topleft w3-padding-large w3-xlarge"></div>
     <div class="w3-display-middle w3-center">
       <iframe src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzufhODt515kB-rgZIZpdG8IDvJf7qPv57MA&s"
-              width="633"
-              height="791"
+              width="225"
+              height="225"
               align="center"
+              valign="middle"
               style="border-radius:10px;"
               frameBorder="0"
               class="giphy-embed"
@@ -77,6 +78,7 @@ cat <<EOF > /var/www/html/index.html
     <div class="w3-display-bottomleft w3-padding-small transparent-background outlined-text">
       <h1>Be a Man Level 4 - Brazil WebServer</h1>
       <h3>I, TIQS, Thank You Theo and Beron</h3>
+      <h3>Team Group Leader - John Sweeney</h3>
       <p><b>Instance Name:</b> $(hostname -f)</p>
       <p><b>Instance Private IP Address: </b> $local_ipv4</p>
       <p><b>Zone: </b> $zone</p>
